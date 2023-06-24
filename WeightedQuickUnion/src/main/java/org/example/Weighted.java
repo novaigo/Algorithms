@@ -37,6 +37,7 @@ public class Weighted {
         while (p != id[p]) {
             p = id[p];
         }
+
         return p;
     }
     // finds the root and then combines smaller root to the larger one making weighted structure
